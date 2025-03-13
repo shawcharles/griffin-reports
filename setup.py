@@ -37,18 +37,18 @@ def get_description():
     return data
 
 
-REQUIREMENTS = ['griffin>=3.2.0', 'pweave', 'matplotlib']
+REQUIREMENTS = ['griffin', 'pweave', 'matplotlib']
 
 
 setup(
     name='griffin-reports',
     version=get_version(),
     keywords=['Griffin', 'Plugin'],
-    url='https://github.com/griffin-ide/griffin-reports',
+    url='https://github.com/shawcharlesgriffin-reports',
     license='MIT',
     author='Griffin Project Contributors',
-    author_email='admin@griffin-ide.org',
-    description='Griffin-IDE plugin for Markdown reports using Pweave.',
+    author_email='info@griffin-analytics.com',
+    description='Griffin plugin for Markdown reports using Pweave.',
     long_description=get_description(),
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
     install_requires=REQUIREMENTS,
